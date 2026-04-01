@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Facts Explorer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🐾 Cat Facts Explorer</h1>
+            <p>Discover interesting facts about our feline friends!</p>
+        </header>
+        
+        <div id="fact-card" class="card">
+            <div id="loading" class="hidden">Fetching a purr-fect fact...</div>
+            <p id="fact-text">Click the button below to start!</p>
+            <div id="error" class="hidden">Meow! Something went wrong.</div>
+        </div>
+
+        <button id="fetch-btn">Get New Fact</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
